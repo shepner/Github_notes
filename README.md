@@ -13,7 +13,7 @@ start with a NEW and EMPTY repo
 ``` shell
 git init
 git add .
-git commit --author "Stephen Hepner <stephen.hepner@kohls.com>" -m "First commit"
+git commit --author "First Last <generic@email.com>" -m "First commit"
 ```
 Note that I had to add my email as it was not autodetected correctly
 grab the ssh location from the repo
