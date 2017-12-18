@@ -21,7 +21,7 @@ grab the ssh location from the repo
 git remote add origin git@github.com:myname/some_repo.git
 git push -u origin master
 ```
-after this `git push` is all you need
+after this `git push` is all you need (but the script does other useful stuff too)
 
 
 https://www.gitignore.io is a good (quick) way to generate the `.gitignore` file
