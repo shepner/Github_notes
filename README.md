@@ -18,7 +18,7 @@ git commit --author "Stephen Hepner <stephen.hepner@kohls.com>" -m "First commit
 Note that I had to add my email as it was not autodetected correctly
 grab the ssh location from the repo
 ``` shell
-git remote add origin git@github.kohls.com:tkmawt6/test_repo.git
+git remote add origin git@github.com:myname/some_repo.git
 git push -u origin master
 ```
 after this `git push` is all you need
