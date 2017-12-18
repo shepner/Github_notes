@@ -3,7 +3,7 @@
 #This is a horribly dumb little script which will walk a dir tree and commit any changes back to github.
 #It makes all sorts of assumptions
 
-DIRLIST=`find * -d 0 -type d`
+DIRLIST=`find * -name ".git" -type d | sed s/\.git/`
 STARTDIR=$PWD
 
 for i in "${DIRLIST[@]}"
